@@ -1,3 +1,6 @@
+*{
+    list-style: none;
+}
 body{
     margin: 0;
     line-height: 1;
@@ -126,6 +129,199 @@ select#categories , select#countries{
     border-radius: 2px;
     font-weight: 400;
 }
+
+.container-1 {
+    border:1px #ccc solid;
+    text-align: center;
+    background-color:#282e47;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .box-1{
+    flex:0.5;
+    border: white solid;
+  }
+  
+  .box-2{
+    flex:1;
+    border: white solid;
+  }
+  
+  .box-3{
+    flex:1;
+    border: white solid;
+  }
+  .box-4{
+    flex:1;
+    border: white solid;
+  }
+  .box-5{
+    flex:1;
+    border: white solid;
+  }
+  .box-6{
+    flex:1;
+    border: white solid;
+  }
+
+
+  .container-1 {
+    padding: 5px;
+    border:2px #ccc solid;
+    text-align: center;
+    background-color:#282e47;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .container-2 ,.container-3 ,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,.container-11{
+    text-align: center; 
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    font-size: small;
+    word-break: normal;
+    display:flex;
+    flex-direction: row;
+    font-size: 10px;
+    
+  }
+  
+  .box1{
+    flex:0.5;
+    border: 1px rgb(109, 109, 109) groove;
+    margin: 0px;
+    
+  }
+  
+  .box2{
+    flex:1;
+    border: 1px rgb(109, 109, 109) groove;
+    margin: 0px;
+  }
+  
+  .box3{
+    flex:1;
+    border: 1px rgb(109, 109, 109) groove;
+
+    margin: 0px;
+  }
+  .box4{
+    flex:1;
+    border: 1px rgb(109, 109, 109) groove;
+  }
+  .box5{
+    flex:1;
+    border: 1px rgb(109, 109, 109) groove;
+  }
+  .box6{
+    flex:1;
+    border: 1px rgb(109, 109, 109) groove;
+  }
+  
+  .container-12
+  {
+      text-align: center;
+  }
+  .own
+  {
+      padding: 60px;
+  }
+  .res
+  {
+      margin-top: 0px;
+      color:  white;
+  }
+  .res1 a
+  {
+      margin-top: 0px;
+      color:  white;
+      float: left;
+  }
+  .container-12 a {
+     font-weight: lighter;
+  }
+  footer
+  {
+    background-color: #282e47;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .res a
+  {
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .credit{
+   
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  }
+  .credit {
+      margin-left: 10px;
+}
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
 
 /* ###### mobile view ###### */
 
